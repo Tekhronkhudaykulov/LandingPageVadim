@@ -1,5 +1,4 @@
 import { useState } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
 import NavbarModal from "./NavbarModal";
 
 function Navbar() {
