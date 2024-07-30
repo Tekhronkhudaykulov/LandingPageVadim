@@ -36,7 +36,7 @@ function MainSection() {
               <div>
                 <p className="text-[#999999] lg:text-[28px] text-center sm:text-start text-[18px] mt-4">
                   На сегодняшний день время катастрофически, ни на что, не
-                  хват1ает!
+                  хватает!
                   <span className="block lg:mt-7">
                     Поэтому потратьте своё время с пользой на себя и любимых!
                   </span>

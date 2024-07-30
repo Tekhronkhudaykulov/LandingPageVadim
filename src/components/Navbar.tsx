@@ -49,12 +49,14 @@ function Navbar() {
           <h1 className="text-center w-[80%] font-medium md:text-[63px]  text-[29px]  text-white">
             Чистота-это Гармония Bашей жизни!
           </h1>
-          <button className="text-white bg-[#0000006E] border-white md:border-[3px] border md:px-7 px-3 py-4 font-medium md:text-lg text-[10px] rounded-2xl">
-            Связаться с нами +998 94 471 23 53
-          </button>
+          <a
+            href="tel:+998 90 033 00 46"
+            className="text-white bg-[#0000006E] border-white md:border-[3px] border md:px-7 px-3 py-4 font-medium md:text-lg text-[10px] rounded-2xl"
+          >
+            Связаться с нами +998 90 033 00 46
+          </a>
         </div>
         <div className="bg-[url('/wave.png')] hidden md:block absolute left-0 right-0 bottom-0 h-[80px] max-w-full w-full bg-center"></div>
-        <div className="bg-[url('/wave2.png')] block md:hidden absolute left-0 right-0 h-[16px] max-w-full w-full bottom-0 bg-center"></div>
       </header>
       <NavbarModal show={show} onClose={() => setShow(false)} />
     </>

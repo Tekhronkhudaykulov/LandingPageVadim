@@ -9,18 +9,14 @@ function Footer() {
           <input
             className="xl:w-[660px] w-[324px] px-4 text-[#926240] font-semibold xl:text-[21px] text-[16px] opacity-35 xl:h-[60px] h-[33px] rounded-3xl"
             type="text"
-            defaultValue="ФиО"
+            placeholder="Ф.И.О"
           />
           <input
             className="xl:w-[660px] w-[324px] px-4 text-[#926240] font-semibold xl:text-[21px] text-[16px] opacity-35 xl:h-[60px] h-[33px] rounded-3xl"
             type="text"
-            defaultValue="+998"
+            placeholder="+998"
           />
-          <input
-            className="xl:w-[660px] w-[324px] px-4 text-[#926240] font-semibold xl:text-[21px] text-[16px] opacity-35 xl:h-[60px] h-[33px] rounded-3xl"
-            type="text"
-            defaultValue="Вопрос (не обязательно)"
-          />
+
           <button className="uppercase hover:opacity-80 active:opacity-65 transition-all bg-white xl:mx-20 mx-[50px] rounded-3xl text-[#926240] text-[23px] xl:py-6 py-[10px]">
             Отправить
           </button>

@@ -32,7 +32,7 @@ function OurServices() {
             <div className="sm:flex grid gap-y-9 w-full">
               <div className="bg-[#D8875A] sm:w-[80%]">
                 <p className="text-white mont sm:text-3xl text-[26px] text-center h-full content-center py-14">
-                  Уборка офисов.
+                  Уборка квартир.
                 </p>
               </div>
               <div className="sm:w-[40%] ">
@@ -64,7 +64,7 @@ function OurServices() {
               </div>
               <div className="bg-[#E6BF9C] sm:w-[80%]">
                 <p className="text-[#AF7859] mont sm:text-3xl text-[26px] text-center h-full content-center py-14">
-                  Уборка офисов.
+                  Мытьё окон.
                 </p>
               </div>
             </div>
@@ -80,7 +80,7 @@ function OurServices() {
             <div className="sm:flex grid gap-y-9 w-full">
               <div className="bg-[#E6BF9C] sm:w-[80%]">
                 <p className="text-[#AF7859] mont sm:text-3xl text-[26px] text-center h-full content-center py-14">
-                  Уборка офисов.
+                  Мытьё посуды.
                 </p>
               </div>
               <div className="sm:w-[40%] ">
@@ -105,7 +105,7 @@ function OurServices() {
               </div>
               <div className="bg-[#E6BF9C] sm:w-[80%]">
                 <p className="text-[#AF7859] mont sm:text-3xl text-[26px] text-center h-full content-center py-14">
-                  Уборка офисов.
+                  Глажка.
                 </p>
               </div>
             </div>
