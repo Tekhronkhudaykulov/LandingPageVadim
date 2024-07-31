@@ -16,6 +16,8 @@ function Footer() {
         `https://lid-sender-bot.onrender.com/api/bot`,
         payload
       );
+      console.log(response);
+
       setName("");
       setPhone("");
     } catch (error) {
