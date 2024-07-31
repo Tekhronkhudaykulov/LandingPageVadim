@@ -1,15 +1,10 @@
-import { useState } from "react";
-import NavbarModal from "./NavbarModal";
-
 function Navbar() {
-  const [show, setShow] = useState(false);
-
   return (
     <>
       <header
         className={`h-screen bg-cover   bg-center bg-[url('/header-bg.jpeg')] max-w-full w-full `}
       >
-        <div className="bg-[#69522E] z-[9999] fixed w-full bg-opacity-65 h-[50px]">
+        <div className="bg-[#69522E] z-[9999] fixed w-full bg-opacity-65 py-[20px]">
           <div
             className={`nav-container  text-white h-full items-center flex justify-between `}
           >
@@ -28,7 +23,7 @@ function Navbar() {
                 Контакты
               </a>
             </ul>
-            <svg
+            {/* <svg
               onClick={() => setShow(true)}
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -42,7 +37,7 @@ function Navbar() {
                 strokeLinejoin="round"
                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
               />
-            </svg>
+            </svg> */}
           </div>
         </div>
         <div className="nav-container  flex items-center justify-center flex-col h-[100vh]  gap-16">
@@ -51,14 +46,14 @@ function Navbar() {
           </h1>
           <a
             href="tel:+998 90 033 00 46"
-            className="text-white bg-[#0000006E] border-white md:border-[3px] border md:px-7 px-3 py-4 font-medium md:text-lg text-[10px] rounded-2xl"
+            className="text-white bg-[#0000006E] border-white md:border-[3px] border md:px-7 px-3 py-4 font-medium md:text-lg text-[18px] rounded-2xl"
           >
             Связаться с нами +998 90 033 00 46
           </a>
         </div>
         <div className="bg-[url('/wave.png')] hidden md:block absolute left-0 right-0 bottom-0 h-[80px] max-w-full w-full bg-center"></div>
       </header>
-      <NavbarModal show={show} onClose={() => setShow(false)} />
+      {/* <NavbarModal show={show} onClose={() => setShow(false)} /> */}
     </>
   );
 }

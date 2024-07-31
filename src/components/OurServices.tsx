@@ -93,7 +93,7 @@ function OurServices() {
             </div>
           </div>
         </ScrollAnimation>
-        <ScrollAnimation animateIn="bounceInLeft">
+        <ScrollAnimation animateIn="bounceInRight">
           <div className="nav-container grid">
             <div className="sm:flex grid gap-y-9 w-full">
               <div className="sm:w-[40%] ">

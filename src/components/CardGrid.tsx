@@ -1,12 +1,13 @@
 function CardGrid() {
   return (
     <>
-      <div className=" mt-32 mb-44 bg-no-repeat nav-container">
+      <div className=" mt-32 !md:mb-44 bg-no-repeat nav-container">
         <div className=" flex bg-no-repeat">
           <div className="grid md:grid-cols-2  grid-cols-1  gap-5 ">
             <div className="gap-10 grid">
               <img className="rounded-2xl" src="card1.png" alt="" />
             </div>
+
             <div className=" bg-no-repeat">
               <div className="grid grid-cols-2 gap-6">
                 <img src="card2.png" alt="" />
