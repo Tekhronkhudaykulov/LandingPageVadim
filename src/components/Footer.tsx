@@ -27,7 +27,7 @@ function Footer() {
 
   return (
     <div className="photo w-full">
-      <div className="grid justify-items-center md:pt-[400px] pt-[270px]">
+      <div className="grid justify-items-center md:pt-[400px] pt-[180px]">
         <h4 className="uppercase text-white mb-[50px] font-semibold xl:text-[33px] text-[26px]">
           оставить заявку ?
         </h4>
